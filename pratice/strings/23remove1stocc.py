@@ -1,0 +1,6 @@
+n=input()
+a=n.find(input())
+n=list(n)
+n.pop(a)
+x=''.join(map(str,n))
+print(x)

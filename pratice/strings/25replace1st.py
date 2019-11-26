@@ -1,0 +1,6 @@
+s=input()
+i=input()
+a=s.find(i)
+print(a,i)
+s=s.replace(s[a],'i',1)
+print(s)
