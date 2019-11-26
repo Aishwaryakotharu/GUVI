@@ -1,0 +1,15 @@
+n=input()
+l=len(n)
+n=int(n)
+temp=n
+t=0
+while(n>0):
+    a=n%10
+    t=a**l+t
+    n=n//10
+print(t)
+print(temp)
+if(t==temp):
+    print("a")
+else:
+    print("na")
