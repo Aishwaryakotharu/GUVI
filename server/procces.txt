@@ -1,0 +1,9 @@
+open cmd
+python server1.py
+enter your name:aishu
+
+open another cmd
+python server1.py
+enter server address: 192.168.126.1
+enetr your name:aishwarya
+connected
